@@ -23,6 +23,13 @@ server_type = "QuartoShiny"
 workdir = "./qmd"
 qmd = "old_faithful.qmd"
 
+# Showcase on serving a Plumber API
+[[route]]
+route = "/api/"
+workers = 1
+server_type = "Plumber"
+workdir = "./api"
+
 # By default the `workdir` and `app_dir`
 # is `.` (Here). If we don't specify
 # it runs the app in the current dir.
