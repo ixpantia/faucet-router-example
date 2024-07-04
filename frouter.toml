@@ -15,6 +15,14 @@ workers = 1
 server_type = "Shiny"
 app_dir = "./text"
 
+# Showcase on serving a quarto shiny app
+[[route]]
+route = "/qmd/"
+workers = 1
+server_type = "QuartoShiny"
+workdir = "./qmd"
+qmd = "old_faithful.qmd"
+
 # By default the `workdir` and `app_dir`
 # is `.` (Here). If we don't specify
 # it runs the app in the current dir.

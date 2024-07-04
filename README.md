@@ -25,4 +25,5 @@ faucet router
 - [http://localhost:3838](http://localhost:3838)
 - [http://localhost:3838/text/](http://localhost:3838/text/)
 - [http://localhost:3838/sliders/](http://localhost:3838/sliders/)
+- [http://localhost:3838/qmd/](http://localhost:3838/qmd/)
 
